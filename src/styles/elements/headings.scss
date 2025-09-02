@@ -21,8 +21,12 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
-    color: var(--color-primary);
+    font-family: var(--font-primary);
+    padding: var(--spacing-xl) 0 var(--spacing-md) 0;
+    color: var(--color-black);
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
 }
 
 h3 {

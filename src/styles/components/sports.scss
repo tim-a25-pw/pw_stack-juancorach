@@ -1,0 +1,9 @@
+.sports {
+    .swiper-slide {
+        transition: all 0.7s $ease-out-expo;
+    }
+
+    .swiper-slide-active {
+        transition: all 0.7s $ease-out-expo;
+    }
+}
