@@ -39,7 +39,6 @@
             width: 50%;
             margin: 0;
             padding: var(--spacing-sm) 0 var(--spacing-lg) 0;
-            font-size: typo(18px);
         }
 
         .button {
@@ -50,6 +49,13 @@
             border: var(--color-primary) 4px solid;
             border-radius: 25px;
             font-size: typo(16px);
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                text-decoration: none;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+            }
         }
     }
 }

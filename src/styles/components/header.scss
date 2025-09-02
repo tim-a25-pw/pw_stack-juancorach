@@ -17,6 +17,7 @@
         li a {
             font-size: typo(14px);
             font-weight: 700;
+            transition: all 0.2s ease-in-out;
 
             &:hover {
                 text-decoration: none;
@@ -37,6 +38,7 @@
         justify-content: center;
         align-items: center;
         gap: var(--spacing-sm);
+        transition: all 0.2s ease-in-out;
 
         .icon {
             width: 54px;
