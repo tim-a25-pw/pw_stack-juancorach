@@ -1,9 +1,36 @@
 .sports {
+    h2 {
+        padding-top: 0;
+    }
+
+    .swiper {
+        height: 60vh;
+    }
+
     .swiper-slide {
         transition: all 0.7s $ease-out-expo;
     }
 
     .swiper-slide-active {
         transition: all 0.7s $ease-out-expo;
+    }
+
+    img {
+        display: flex;
+    }
+
+    .swiper-pagination {
+        gap: 10px;
+
+        .swiper-pagination-bullet {
+            background-color: var(--color-black);
+            width: var(--spacing-sm);
+            height: var(--spacing-sm);
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: var(--color-primary);
+        }
     }
 }

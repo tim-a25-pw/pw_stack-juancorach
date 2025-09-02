@@ -1,0 +1,52 @@
+.footer {
+    background-color: var(--color-black);
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        padding: 24px 0 var(--spacing-sm) 0;
+    }
+
+    nav {
+        width: 100%;
+        border-top: 2px rgba(255, 255, 255, 0.2) solid;
+        padding: var(--spacing-sm) 0;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            fill: var(--color-white);
+            padding: 5px;
+            border-radius: 100%;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                background-color: var(--color-primary);
+            }
+        }
+    }
+
+    p {
+        color: var(--color-white);
+        padding-bottom: 24px;
+        margin: 0;
+    }
+}

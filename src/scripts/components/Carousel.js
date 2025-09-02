@@ -4,14 +4,11 @@ export default class Carousel {
   constructor(element) {
     this.element = element;
     this.options = {
+      direction: 'vertical',
       slidesPerView: 1,
-      spaceBetween: 16,
       pagination: {
         el: this.element.querySelector('.swiper-pagination'),
-      },
-      navigation: {
-        nextEl: this.element.querySelector('.swiper-button-next'),
-        prevEl: this.element.querySelector('.swiper-button-prev'),
+        clickable: true,
       },
       centeredSlides: true,
     };
