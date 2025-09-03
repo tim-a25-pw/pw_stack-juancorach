@@ -7,7 +7,7 @@
         <div class="hero__media">
             <img src="assets/images/bg-hero.jpg" alt="Skieur étoile" />
         </div>
-        <div class="hero__content">
+        <div class="hero__content" data-scrolly="fromLeft">
             <h1>
                 La
                 <span>crème</span>
@@ -25,9 +25,9 @@
 
 <!-- Athlètes -->
 
-<section class="athletes">
+<section class="athletes" id="athletes">
     <div class="wrapper">
-        <div class="athletes__content">
+        <div class="athletes__content" data-scrolly="fromRight">
             <h2>Nos athlètes</h2>
             <p>
                 Nos athlètes sont sélectionnés parmi les meilleurs de leur génération. Sans aucun ajout d’hormones de croissances (à l’exception des Doritos),
@@ -35,7 +35,7 @@
             </p>
         </div>
         <div class="athletes__media">
-            <div class="athlete">
+            <div class="athlete" data-scrolly="flipY">
                 <div class="athlete__media">
                     <div class="teinte-fond"></div>
                     <img src="assets/images/matt-pratt.jpg" alt="" />
@@ -47,7 +47,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="athlete">
+            <div class="athlete" data-scrolly="flipY">
                 <div class="athlete__media">
                     <div class="teinte-fond"></div>
                     <img src="assets/images/ben-lavigne.jpg" alt="" />
@@ -59,7 +59,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="athlete">
+            <div class="athlete" data-scrolly="flipY">
                 <div class="athlete__media">
                     <div class="teinte-fond"></div>
                     <img src="assets/images/jeff-white.jpg" alt="" />
@@ -79,9 +79,9 @@
 
 <section class="sports">
     <div class="wrapper">
-        <h2>Sports en image</h2>
+        <h2 data-scrolly="fromRight">Sports en image</h2>
     </div>
-    <div class="swiper" data-component="Carousel">
+    <div class="swiper" data-component="Carousel" data-scrolly="flipX">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="assets/images/swiper1.jpg" alt="" />
