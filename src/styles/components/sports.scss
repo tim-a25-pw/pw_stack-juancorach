@@ -8,6 +8,7 @@
     }
 
     .swiper-slide {
+        width: 100%;
         transition: all 0.7s $ease-out-expo;
     }
 
@@ -16,7 +17,8 @@
     }
 
     img {
-        display: flex;
+        object-fit: cover;
+        width: 100%;
     }
 
     .swiper-pagination {
